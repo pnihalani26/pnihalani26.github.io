@@ -1,21 +1,103 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html> 
+<html>
 <head>
-<style>
+<title> Salina Nihalani </title>
 
-body {
-	color: pink;
+<style>
+body{
+	animation:paused;
+	font-size:16px; 
+	color: #7F4C4C;
+	align-content: center;
+	margin: auto;
+	alignment-adjust:middle; 
+	background-color:#E5B2B2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B497C5;
+}
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: ##996666;
+}
+.active {
+    background-color: #9D18A0;
+}
+	
+	h1{
+	text-align: center;
+        
+}
+    h2{ 
+    text-align:center;
 
 }
-
+p{
+	text-align: center;
+}
+input{
+	color: #D70CC3;
+	position: relative;
+	margin:auto;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.purple {
+	background-color: #C9B9CF;
+	
+}
 </style>
+    <script>
+	 function myFunction(){
+		 var image = document.getElementById("picture2");
+		 image.src = "GWC2.jpg";
+	 }
+	</script>
+
 </head>
 
 <body>
-<p> hello my name is palomi </p>
-<img src="beach.jpg" width="1226" height="200">
-<img src="spongebob.gif">
 
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+   <!--<li><a href="page2.html">About Me</a></li>-->
+  <li><a href="page3.html">Resume </a></li>
+  <li><a href="page4.html">Projects</a></li>
+ <li class="purple" style="float:right"><a href="page5.html">Contact</a></li>
+</ul>
+
+<h1>Salina Nihalani</h1>
+
+<h1>Welcome to my portfolio!</h1>
+<h2 class="h2"> I am a current first-year CS Major at Georgia Tech with threads in intelligece and mod-sim!</h2>
+<!--<p> Feel free to browse around this website and view my various activities and accomplishments!</p> -->
+
+	<div style= "align:center;">
+<img src="senior pic.jpeg" style="width:300px;height:225px;">
+	</div>
+    
 </body>
 
 </html>
+    
